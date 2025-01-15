@@ -1,0 +1,120 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  /* App container */
+  .app-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+   
+  }
+  
+  /* Header styles */
+  .header {
+    text-align: center;
+    padding: 1rem;
+    background-color: #282c34;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+ .header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  /* Input and Button container */
+  .input-container {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .input-container input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+  }
+  
+  .input-container button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .input-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Task List */
+  .todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .todo-item span {
+    flex: 1;
+  }
+  
+  .todo-item span.completed {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .todo-item button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .todo-item button.complete {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .todo-item button.complete:hover {
+    background-color: #218838;
+  }
+  
+  .todo-item button.edit {
+    background-color: #ffc107;
+    color: white;
+  }
+  
+  .todo-item button.edit:hover {
+    background-color: #e0a800;
+  }
+  
+  .todo-item button.delete {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .todo-item button.delete:hover {
+    background-color: #c82333;
+  }
+  
+  /* No tasks message */
+  .no-tasks {
+    text-align: center;
+    font-style: italic;
+    color: #888;
+  }
+  
